@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TH8 PORTFOLIO</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0E0E0E] text-[#F5F5F5]">
+
+<!-- HEADER / NAVBAR -->
+<header class="bg-[#0E0E0E] border-b border-[#2A2A2A]">
+  <div class="container mx-auto px-4 py-6">
+    <div class="flex items-center justify-between">
+
+      <h1 class="text-2xl font-bold tracking-widest">TH8</h1>
+
+      <nav class="hidden md:flex space-x-6 font-semibold text-[#B5B5B5]">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="services.html" class="hover:text-white transition">Services</a>
+        <a href="portfolio.html" class="hover:text-white transition">Portfolio</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+      </nav>
+
+      <button id="menu-btn" class="md:hidden text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="menu" class="hidden mt-6 md:hidden">
+      <nav class="flex flex-col space-y-4 font-semibold text-[#B5B5B5]">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="services.html" class="hover:text-white transition">Services</a>
+        <a href="portfolio.html" class="hover:text-white transition">Portfolio</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- PORTFOLIO SECTION -->
+<section class="py-24 md:py-32 px-4">
+  <div class="container mx-auto text-center mb-16 max-w-3xl">
+    <h2 class="text-4xl font-bold mb-6">Portfolio</h2>
+    <p class="text-[#B5B5B5]">
+      Selected high-converting websites and funnels built for
+      luxury spa, beauty, and aesthetic businesses.
+    </p>
+  </div>
+
+  <!-- Portfolio Grid -->
+  <div class="container mx-auto grid md:grid-cols-3 gap-8 px-4">
+
+    <!-- Case Study 1 -->
+    <div onclick="window.open('https://beautyspa108.netlify.app/', '_blank')"
+      class="bg-[#141414] border border-[#2A2A2A] rounded-xl overflow-hidden
+      hover:scale-105 transition cursor-pointer">
+
+      <img src="CASE4.png" class="w-full h-56 object-cover">
+
+      <div class="p-6">
+        <h3 class="text-2xl font-bold mb-2">
+          Luxury Spa – Sales Funnel & Booking System
+        </h3>
+
+        <p class="text-[#B5B5B5] mb-4">
+          Conversion-focused funnel system to turn visitors into confirmed bookings.
+        </p>
+
+        <ul class="text-[#B5B5B5] mb-4 list-disc list-inside">
+          <li>High-converting sales funnel</li>
+          <li>Luxury landing page</li>
+          <li>Optimized booking CTA</li>
+        </ul>
+
+        <p class="font-semibold mb-6">
+          Result: +40% booking requests in 30 days
+        </p>
+
+        <a href="https://beautyspa108.netlify.app/" target="_blank"
+          onclick="event.stopPropagation();"
+          class="inline-block border border-white text-white px-5 py-2 rounded-lg
+          hover:bg-white hover:text-black transition">
+          View Project
+        </a>
+      </div>
+    </div>
+
+    <!-- Case Study 2 -->
+    <div onclick="window.open('https://beautyspa105.netlify.app/', '_blank')"
+      class="bg-[#141414] border border-[#2A2A2A] rounded-xl overflow-hidden
+      hover:scale-105 transition cursor-pointer">
+
+      <img src="CASE2.png" class="w-full h-56 object-cover">
+
+      <div class="p-6">
+        <h3 class="text-2xl font-bold mb-2">
+          Beauty Clinic – Luxury Multi-Page Website
+        </h3>
+
+        <p class="text-[#B5B5B5] mb-4">
+          Premium multi-page website to strengthen brand authority.
+        </p>
+
+        <ul class="text-[#B5B5B5] mb-4 list-disc list-inside">
+          <li>Luxury website design</li>
+          <li>Structured services pages</li>
+          <li>Mobile-optimized</li>
+        </ul>
+
+        <p class="font-semibold mb-6">
+          Result: Higher engagement & brand trust
+        </p>
+
+        <a href="https://beautyspa105.netlify.app/" target="_blank"
+          onclick="event.stopPropagation();"
+          class="inline-block border border-white text-white px-5 py-2 rounded-lg
+          hover:bg-white hover:text-black transition">
+          View Project
+        </a>
+      </div>
+    </div>
+
+    <!-- Case Study 3 -->
+    <div onclick="window.open('https://beautyspa107.netlify.app/', '_blank')"
+      class="bg-[#141414] border border-[#2A2A2A] rounded-xl overflow-hidden
+      hover:scale-105 transition cursor-pointer">
+
+      <img src="CASE3.png" class="w-full h-56 object-cover">
+
+      <div class="p-6">
+        <h3 class="text-2xl font-bold mb-2">
+          Beauty Salon – High-Converting 1-Page Website
+        </h3>
+
+        <p class="text-[#B5B5B5] mb-4">
+          Fast-loading single-page website built for inquiries.
+        </p>
+
+        <ul class="text-[#B5B5B5] mb-4 list-disc list-inside">
+          <li>Focused 1-page layout</li>
+          <li>Clear value proposition</li>
+          <li>Mobile-first design</li>
+        </ul>
+
+        <p class="font-semibold mb-6">
+          Result: Higher inquiry rate
+        </p>
+
+        <a href="https://beautyspa107.netlify.app/" target="_blank"
+          onclick="event.stopPropagation();"
+          class="inline-block border border-white text-white px-5 py-2 rounded-lg
+          hover:bg-white hover:text-black transition">
+          View Project
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="mt-20 text-center">
+    <h4 class="text-2xl font-bold mb-6">
+      Want Similar Results for Your Business?
+    </h4>
+    <a href="contact.html"
+      class="inline-block border border-white text-white
+      py-3 px-10 rounded-full font-semibold
+      hover:bg-white hover:text-black transition">
+      Start Your Project
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#0E0E0E] py-8 mt-16 text-center text-[#777777] font-semibold border-t border-[#2A2A2A]">
+  &copy; 2026 TH8 CODER
+</footer>
+
+<script>
+const menuBtn = document.getElementById('menu-btn');
+const menu = document.getElementById('menu');
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+});
+</script>
+
+</body>
+</html>
